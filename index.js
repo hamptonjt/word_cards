@@ -2,6 +2,10 @@ const fastify = require('fastify')({
   logger: true
 })
 
+fastify.register(require('fastify-cors'), {
+  origin: '*'
+})
+
 fastify.register(require('./db_connector'))
 fastify.register(require('./words'))
 
