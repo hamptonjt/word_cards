@@ -1,0 +1,19 @@
+{
+  "name": "word_cards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fastify": "^3.3.0",
+    "fastify-mongodb": "^2.0.1",
+    "fastify-plugin": "^2.3.2",
+    "fastify-static": "^3.2.0"
+  }
+}
