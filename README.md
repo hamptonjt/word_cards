@@ -9,6 +9,12 @@ of the project.
 
 ---
 ### Setting up the Application ###
+First, clone down this repo:
+```
+git clone git@github.com:hamptonjt/word_cards.git
+```
+Then `npm install`.
+
 You will need a Mongo database with a simple 'words' collection.  I've broken up the word list into sets - 
 as assigned by the teacher - so you can focus on a given set, or use all the words in the collection.
 
